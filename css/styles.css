@@ -1,0 +1,236 @@
+.dropdown-toggle::after {
+  display: contents;
+  color: #ababab;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.nav {
+  margin-right: 90px;
+  align-items: center;
+  color: #00b39b;
+}
+.navbar {
+  background-color: white;
+}
+.main-header {
+  margin-top: 100px;
+  text-align: center;
+  color: #00c3a5;
+}
+.navbar a {
+  color: #ababab;
+}
+.nav li a:hover {
+  color: #00b39b;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph {
+  display: flex;
+  justify-content: space-between 10px;
+}
+p {
+  padding: 0px 20px;
+  margin-top: 50px;
+}
+h1 {
+  margin-top: 50px;
+}
+#section1 {
+  margin: 0px 100px;
+}
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 250px;
+}
+
+.for-patients {
+  background: #00b39b;
+  color: #fff;
+  border-radius: 10px;
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+}
+
+.for-doctors {
+  background: #3d83df;
+  color: #fff;
+  border-radius: 10px;
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.section2 span {
+  font-size: 0.875em;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.section2 {
+  font-size: 1.625em;
+  color: #fff;
+  margin-top: 0.3em;
+  font-weight: 100;
+}
+
+.section2 select {
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.section2 img {
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  bottom: 0;
+  left: 200px;
+}
+.section3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 200px; */
+  margin: 100px;
+  padding: 50px;
+}
+.logos {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+}
+.logos svg {
+  width: 130px;
+  max-width: 100%;
+  fill: rgb(204, 199, 199);
+}
+svg:hover {
+  fill: #00b39b;
+}
+.section3 h2 {
+  float: left;
+  width: 33%;
+  font-size: 1.625em;
+  margin: 0.25em 0 0.35em;
+  padding-right: 1em;
+  color: #00b39b;
+}
+.section5 {
+  border-top: 1px solid #eef2f2;
+  font-size: 0.75em;
+  color: #ababab;
+  text-align: center;
+  padding: 1em 0;
+}
+.section4 {
+  background: #c8faf3;
+  display: flex;
+}
+.first {
+  display: flex;
+}
+.section4 h2 {
+  color: #00b39b;
+}
+.section4 p {
+  color: #747474;
+  display: flex;
+  height: 400px;
+}
+
+.healthcare {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  padding: 50px;
+}
+
+.healthcare img {
+  width: 450px;
+  position: absolute;
+  bottom: -60px;
+}
+.leaders {
+  /*width: 100%;
+  height: 100%;*/
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.leader {
+  background: white;
+  width: 200px;
+  height: 250px;
+  margin: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 300px;
+}
+
+.leader h3 {
+  font-size: 25px;
+  color: #00b39b;
+  font-weight: 100;
+  padding: 10px;
+}
+
+.leader p {
+  font-size: 0.8125em;
+}
+.section6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px 400px;
+}
+.section6 h2 {
+  color: #00b39b;
+}
+.section6 p {
+  color: #747474;
+  display: flex;
+}
+.section7 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px;
+}
+.cities {
+  margin: 10px 20px;
+}
+.city {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.city span {
+  color: #747474;
+  margin-right: 100px;
+}
+.city button {
+  color: #fff;
+  background: #3d83df;
+}
+.city button:hover {
+  background: #113668;
+}
+.city:hover {
+  box-shadow: rgb(145, 143, 143);
+}
